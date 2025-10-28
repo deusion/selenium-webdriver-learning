@@ -3,11 +3,11 @@
 This is a personal learning repo for Automated UI testing using Selenium Webdriver with Mocha + Mochawesome and Chai. This is using LambdaTest Todo project.
 
 ## Features
-Selenium Webdriver - Automation
-Mocha - Test Framework
-Chai - Assertion Library
-Edge Webdriver - Browser
-Mochawesome - Automation Reports
+- Selenium Webdriver - Automation
+- Mocha - Test Framework
+- Chai - Assertion Library
+- Edge Webdriver - Browser
+- Mochawesome - Automation Reports
 
 ## Prerequisites
 - Node.js (v14 or higher)
