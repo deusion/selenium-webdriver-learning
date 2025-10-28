@@ -1,0 +1,21 @@
+{
+  "name": "selenium-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --no-timeouts --parallel --reporter mochawesome --require mochawesome/register --reporter-options reportDir=./test-reports,reportFilename=TestReport"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^6.2.0",
+    "chromedriver": "latest",
+    "edgedriver": "^6.1.2",
+    "geckodriver": "^6.0.2",
+    "mocha": "^11.7.4",
+    "mochawesome": "^7.1.4",
+    "selenium-webdriver": "latest"
+  }
+}
