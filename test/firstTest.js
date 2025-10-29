@@ -3,7 +3,7 @@ const { Builder, By, Key } = require("selenium-webdriver"); //Used to pull the p
 var should = require("chai").should(); //using chai for assertions
 
 //describe block, describes the reasoning for the tests
-describe("Testing whether LI todo is functional", function () {
+describe("Testing whether LI todo is functional", async function () {
 
     //it block - each it block is a descriptor for the test youre doing. 
     it("Successfully added an item to the list and it matches expected value", async function () {

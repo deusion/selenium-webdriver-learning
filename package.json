@@ -12,6 +12,7 @@
   "dependencies": {
     "chai": "^6.2.0",
     "chromedriver": "latest",
+    "dotenv": "^17.2.3",
     "edgedriver": "^6.1.2",
     "geckodriver": "^6.0.2",
     "mocha": "^11.7.4",

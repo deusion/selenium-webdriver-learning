@@ -2,6 +2,9 @@
 
 This is a personal learning repo for Automated UI testing using Selenium Webdriver with Mocha + Mochawesome and Chai. This is using LambdaTest Todo project.
 
+Project currently executes 'firstTest.js' on local machine.
+Executes 'secondTest.js' on Lambda Test Automation farm.
+
 ## Features
 - Selenium Webdriver - Automation
 - Mocha - Test Framework
@@ -25,6 +28,8 @@ cd selenium-webdriver-learning
 ```bash
 npm install
 ```
+
+- Modify '.env.example' with your access key and username from LambdaTest and rename to '.env'
 
 ## Running Tests
 - Run all tests
