@@ -32,7 +32,6 @@ describe("Testing whether adding another todo in parallel is functional", functi
     //it block - each it block is a descriptor for the test youre doing. 
     it("successfully adds an item to application", async function () {
 
-        // try {
         //navigate to the application
         await driver.get("https://lambdatest.github.io/sample-todo-app/");
 
@@ -47,18 +46,10 @@ describe("Testing whether adding another todo in parallel is functional", functi
             return value
         });
 
-        // node assert
-        // assert.strictEqual(todoText, "Learn Selenium");
-
         //assert that it should be equal to the string we want
         todoText.should.equal("Learn Selenium");
 
-    }
-        // finally {
-        //     //close the browser
-        //     await driver.quit();
-        // }
-    );
+    });
 
     //it block - each it block is a descriptor for the test youre doing 
     it("successfully adds another item to application", async function () {
@@ -82,9 +73,9 @@ describe("Testing whether adding another todo in parallel is functional", functi
 
 
         //assert that it should be equal to the string we want, intentionally this is wrong.
-        // todoText.should.equal("Learn JS");
+        todoText.should.equal("Learn JS");
 
         //assert that it should be equal to the string we want, this is correct string
-        todoText.should.equal("Learn Selenium");
+        // todoText.should.equal("Learn Selenium");
     });
 });

@@ -3,7 +3,9 @@
 This is a personal learning repo for Automated UI testing using Selenium Webdriver with Mocha + Mochawesome and Chai. This is using LambdaTest Todo project.
 
 Project currently executes 'firstTest.js' on local machine.
-Executes 'secondTest.js' on Lambda Test Automation farm.
+Executes 'secondTest.js' on Lambda Test Selenium Grid.
+It also executes tests in headless mode.
+'paramTest.js' executes paramaterized tests
 
 ## Features
 - Selenium Webdriver - Automation
@@ -11,6 +13,7 @@ Executes 'secondTest.js' on Lambda Test Automation farm.
 - Chai - Assertion Library
 - Edge Webdriver - Browser
 - Mochawesome - Automation Reports
+- Lambda Test Suite - Testing on Remote Selenium Grid
 
 ## Prerequisites
 - Node.js (v14 or higher)
